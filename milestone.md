@@ -1,5 +1,10 @@
 # Predicting User Retention based on subreddit visits
 
+## Repository
+
+Github repository [here](https://github.com/alacwong/d25-project)
+Data story [here](https://medium.com/@mr.6902spades/exploring-user-retention-on-community-visits-f3d8436c34b5)
+
 ##  Abstract
 User retention is a very import statistic used in a variety of different applications.
 Users are very important especially to large corporations such as Google, and Amazon.
@@ -13,18 +18,17 @@ topics, and subreddit popularity. I want to provide visualizations for these res
 as well an ensemble of supervised learning models to predict user retentions 
 from these behavioral patterns.
 
-## Research Questions
+## Research Questions 
 
 We are interested user retention based on a user's behaviour, here are some questions
 we are trying to answer.
 
-1. How can we best predict user retention?
+1. Can we build a model user retention with community activity?
 
-2. Do user retention rates correlate with types of the subreddits they visit?
+2. Are subreddits homogeneous based on user visits
 
-3. Do user retention rates correlate with the time of day they post?
+3. How can we improve our current model?
 
-4. Can we predict user retention from their post past post frequency?
 
 ## Proposed Dataset
 
@@ -48,7 +52,7 @@ use will matrix factorization to push the dimensions back to 2,
 while preserving closeness. Inspired by this [document](https://developers.google.com/machine-learning/recommendation/collaborative/matrix)
 
 #### Supervised Learning
-The model I plan to use is a logistic regression model. My training data will be for each user
+The model I plan to use is a linear regression model. My training data will be for each user
 the subreddits they are subscribed to, as a row in the subreddit embedding matrix, and its label
 is how long the user stayed on the platform.
 

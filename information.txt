@@ -1,0 +1,5 @@
+You can find data story here
+https://medium.com/@mr.6902spades/exploring-user-retention-on-community-visits-f3d8436c34b5
+It is one medium, some of plots load slowly (I used plotly), if you cannot see it, try reloading
+You can find github repo here
+https://github.com/alacwong/d25-project
